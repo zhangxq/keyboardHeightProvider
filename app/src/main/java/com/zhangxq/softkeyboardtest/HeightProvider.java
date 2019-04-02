@@ -28,8 +28,7 @@ public class HeightProvider extends PopupWindow implements OnGlobalLayoutListene
         setBackgroundDrawable(new ColorDrawable(0));
 
         // 设置宽度为0，高度为全屏
-        setWidth(10);
-        rootView.setBackgroundColor(0xffff0000);
+        setWidth(0);
         setHeight(LayoutParams.MATCH_PARENT);
 
         // 设置键盘弹出方式
